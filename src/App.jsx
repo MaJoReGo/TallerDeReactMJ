@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import React from 'react'
 import './App.css'
-import { CreateTask } from './components/CreateTask/CreateTask'
+import {Home} from '../src/components/Pages/Home/Home'
 
 
 function App() {
