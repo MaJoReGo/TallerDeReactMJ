@@ -1,0 +1,38 @@
+.Form-content {
+  margin: 0;
+  padding: 20px;
+  background-color: #340180;
+}
+
+.Form-content form {
+  display: flex;
+  flex-direction: row;
+}
+
+.Form-content label{
+  margin-bottom: 10px;
+}
+
+.Form-content label {
+  display: flex;
+  margin: 20px;
+}
+.Form-content p {
+  color: #fff;
+  font-size: 3vh;
+}
+
+.Form-content input{
+  flex: 2;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 0 10px;
+}
+
+.button-add{
+  display: flex;
+  width: 50%;
+}
+
+  

@@ -1,15 +1,14 @@
 .Header-content{
     display: flex;
-    width: 100vw;
-    height: max-content;
+    margin: 0;
     background-color: #a477ff;
     justify-content: center;
     align-items: center;
-    padding: 5vh;
+    padding: 1vh;
 }
 .Header-content h1{
     color: #fff;
-    margin: 3rem 32rem;
+    margin: 0 32rem;
     font-size: 60px;
 }
 .Header-content img{
