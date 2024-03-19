@@ -1,28 +1,23 @@
-.Form-content {
+form {
   margin: 0;
   padding: 20px;
   background-color: #340180;
 }
 
-.Form-content form {
+form {
   display: flex;
   flex-direction: row;
 }
 
-.Form-content label{
-  margin-bottom: 10px;
-}
-
-.Form-content label {
+label{
   display: flex;
   margin: 20px;
-}
-.Form-content p {
+  margin-bottom: 10px;
   color: #fff;
-  font-size: 3vh;
+  font-size: 2vh;
 }
 
-.Form-content input{
+input{
   flex: 2;
   width: 100%;
   border: 1px solid #ccc;

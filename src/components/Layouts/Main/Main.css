@@ -8,8 +8,9 @@
     color: yellow;
     font-size: 50px;
 }
-.home-container p{
+.home-container hr{
     color: rgb(255, 255, 255);
+    width: 50%;
 }
 .container{
     background-color: #1a0040;
@@ -20,12 +21,6 @@
     border-radius: 8px;
     padding: 40px;
 }
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #a477ff;
-    margin: 10px 0 0 0 ;
-    padding: 10px;
+.container p{
     color: #fff;
 }

@@ -1,4 +1,4 @@
-.Header-content{
+header{
     display: flex;
     margin: 0;
     background-color: #a477ff;
@@ -6,12 +6,12 @@
     align-items: center;
     padding: 1vh;
 }
-.Header-content h1{
+header h1{
     color: #fff;
     margin: 0 32rem;
     font-size: 60px;
 }
-.Header-content img{
+header img{
     display: flex;
     width: 10%;
     justify-content: flex-end;

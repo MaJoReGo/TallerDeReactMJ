@@ -1,8 +1,13 @@
 import React from 'react'
+import Logo from '../../../assets/images/React.png';
 import './Header.css'
 
-export const Header = ( {children} ) => {
+
+export const Header = () => {
   return (
-    <header>{ children } </header>
+    <header>
+      <h1>Lista De Tareas</h1>
+    <img src={Logo} alt='Logo React' />
+    </header>
   )
 }
