@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
 .home-container{
     display: flex;
     justify-content: center;
@@ -5,7 +6,8 @@
     flex-direction: column;
 }
 .home-container h1{
-    color: yellow;
+    font-family: "Dokdo", system-ui;
+    color:#bbc0a8;
     font-size: 50px;
 }
 .home-container hr{
@@ -13,7 +15,7 @@
     width: 50%;
 }
 .container{
-    background-color: #1a0040;
+    background-color:#9cafaa;
     width: 90vw;
     height: max-content;
     margin: 50px;

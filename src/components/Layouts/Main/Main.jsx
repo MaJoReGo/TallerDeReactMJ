@@ -1,33 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { Form } from '../../Form/Form';
 import { Filter } from '../../Filter/Filter';
-import './Main.css'
+import './Main.css';
 
 export const Main = () => {
+  const [tasks, setTasks] = useState([]);
+
+  const handleTaskAdded = (newTask) => {
+    // Agregar la nueva tarea al estado de tareas
+    setTasks([...tasks, newTask]);
+  };
+
   return (
     <main>
-        <Form/>
-       <div className='home-container'>
-  
-  <h1>Tienes 2 tareas completas y 2 tareas pendientes</h1>
-  <br/>
-  <hr></hr> 
- </div>
-
- <Filter/>
-
- <div className='container'>
-  <p>Tarea 1</p>
-  <br/>
-  <br/>
-  <p>Tarea 2</p>
-  <br/>
-  <br/>
-  <p>Tarea 3</p>
-  <br/>
-  <br/>
-  <p>Tarea 4</p>
-  </div> 
+      <Form onTaskAdded={handleTaskAdded} />
+      <div className='home-container'>
+        <h1>Tienes {tasks.length} tareas</h1>
+        <br/>
+        <hr></hr> 
+      </div>
+      <Filter />
+      <div className='container'>
+        {tasks.map((task, index) => (
+          <div key={index}>
+            <h2>{task.title}</h2>
+            <p>{task.description}</p>
+          </div>
+        ))}
+      </div> 
     </main>
-  )
-}
+  );
+};
