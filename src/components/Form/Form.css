@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+
 form {
   margin: 0;
   padding: 20px;
@@ -11,10 +13,13 @@ form {
 
 label{
   display: flex;
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
   margin: 20px;
   margin-bottom: 10px;
-  color: #fff;
-  font-size: 2vh;
+  color: #9cafaa;
 }
 
 input{
@@ -24,10 +29,22 @@ input{
   border-radius: 8px;
   margin: 0 10px;
 }
-
-.button-add{
-  display: flex;
-  width: 50%;
+#description{
+  flex: 2;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 0 10px;
+}
+.button-add {
+  flex: 1; 
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-size: 26px; 
+  padding: 8px 12px; 
+  background-color: #9cafaa;
+  border-color: #9cafaa;
+  color: #fff;
 }
 
   

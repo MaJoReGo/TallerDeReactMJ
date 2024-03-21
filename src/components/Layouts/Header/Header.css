@@ -15,8 +15,11 @@ header h1{
     margin: 0 32rem;
     font-size: 60px;
 }
-header img{
+header img {
     display: flex;
     width: 10%;
     justify-content: flex-end;
+    border-radius: 50%; 
+    width: 25vh;
+    height: 20vh;
 }

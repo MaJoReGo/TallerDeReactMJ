@@ -17,17 +17,21 @@ export const Main = () => {
       <div className='home-container'>
         <h1>Tienes {tasks.length} tareas</h1>
         <br/>
-        <hr></hr> 
+        <hr/> 
       </div>
       <Filter />
       <div className='container'>
         {tasks.map((task, index) => (
           <div key={index}>
-            <h2>{task.title}</h2>
-            <p>{task.description}</p>
+            <ul>
+              <li>{task.title}</li>
+              <li>{task.description}</li>
+              <input id="checkboxTask" type="checkbox" />
+            </ul>
           </div>
         ))}
       </div> 
     </main>
   );
 };
+

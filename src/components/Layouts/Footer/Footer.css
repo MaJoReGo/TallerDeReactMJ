@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
-footer{
-    display: flex;
+footer {
+  display: flex;
     font-family: "Dokdo", system-ui;
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
-    justify-content: center;
-    align-items: center;
-    background-color: #EFBC9B;
-    margin: 110px 0 0 0 ;
-    padding: 10px;
-    color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #EFBC9B;
+  color: #fff; 
+  padding: 10px;
+  text-align: center;
 }

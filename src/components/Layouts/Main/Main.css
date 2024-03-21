@@ -5,24 +5,41 @@
     align-items: center;
     flex-direction: column;
 }
-.home-container h1{
+.home-container h1 {
     font-family: "Dokdo", system-ui;
-    color:#bbc0a8;
-    font-size: 50px;
+    color: #d8b69f;
+    font-size: 40px;
 }
-.home-container hr{
-    color: rgb(255, 255, 255);
+hr{
+    background-color: rgb(255, 255, 255);
     width: 50%;
 }
-.container{
-    background-color:#9cafaa;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: #9cafaa;
     width: 90vw;
     height: max-content;
-    margin: 50px;
-    border: 1px;
+    margin: 50px auto; 
+    border: 1px solid;
     border-radius: 8px;
     padding: 40px;
-}
-.container p{
+  }
+  
+ ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: "ฅ՞•ﻌ•՞ฅ. ";
+    justify-content: center;
+    align-items: center; 
     color: #fff;
-}
+  }
+  
+  #checkboxTask{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
